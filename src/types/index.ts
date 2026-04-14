@@ -1,0 +1,15 @@
+// src/types/index.ts
+
+export interface Student {
+    id: number;
+    name: string;
+    email: string;
+    enrolled: boolean;
+}
+
+export interface EmotionCheckIn {
+    studentId: number;
+    date: string;
+    emotion: string;
+    comment?: string;
+}
